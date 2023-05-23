@@ -24,3 +24,12 @@ body {
     width: 450px;
     max-width: 100%;
 }
+.header {
+    padding: 30px 40px;
+}
+
+.header h2 {
+    font-weight: 600;
+    color: #ACBAE1;
+    font-size: 30px;
+}
