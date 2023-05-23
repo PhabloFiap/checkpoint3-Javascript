@@ -34,23 +34,23 @@ body {
     font-size: 30px;
 }
 
-.form {
+.formu {
     padding: 0 40px 30px;
 }
 
-.form-control {
+.form-controle {
     margin-bottom: 10px;
     padding-bottom: 20px;
     position: relative;
 }
 
-.form-control label {
+.form-controle label {
     display: inline-block;
     margin-bottom: 5px;
     color: #828CAD;
 }
 
-.form-control input {
+.form-controle input {
     border: 2px solid #3E445B;
     border-radius: 5px;
     outline: 0;
@@ -63,35 +63,35 @@ body {
     padding: 15px;
 }
 
-.form-control.success input {
+.form-controle.success input {
     border: 3px solid #4ECA64;
 }
 
-.form-control.error input {
+.form-controle.error input {
     border: 3px solid #DB5A5A;
 }
 
-.form-control.error i.img-error {
+.form-controle.error i.img-error {
     visibility: visible;
 }
 
-.form-control.success i.img-success {
+.form-controle.success i.img-success {
     visibility: visible;
 }
 
-.form-control.error small{
+.form-controle.error small{
     color: #DB5A5A;
     visibility: visible;
 }
 
-.form-control i {
+.form-controle i {
     position: absolute;
     top: 45px;
     right: 10px;
     visibility: hidden;
 }
 
-.form-control small {
+.form-controle small {
     visibility: hidden;
     position: absolute;
     margin-top: 5px;
@@ -99,7 +99,7 @@ body {
 
 }
 
-.form button {
+.formu button {
     background-color: #6C63FF;
     border-radius: 5px;
     color: #fff;
