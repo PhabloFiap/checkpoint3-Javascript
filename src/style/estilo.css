@@ -24,6 +24,7 @@ body {
     width: 450px;
     max-width: 100%;
 }
+
 .header {
     padding: 30px 40px;
 }
@@ -84,21 +85,6 @@ body {
     visibility: visible;
 }
 
-
-/*testando se der tudo certo*/
-.form-controle.success input{
-    border: 3px solid #4ECA64 ;
-
-}
-.form-controle.error input{
-    border: 3px solid #DB5A5A ;
-
-}
-
-
-
-
-
 .form-controle i {
     position: absolute;
     top: 45px;
@@ -126,4 +112,9 @@ body {
     margin-top: 5px;
 
     cursor: pointer;
+}
+
+.formu button:hover {
+    background-color: #584ff5;
+    transition: 0.3s;
 }
