@@ -84,6 +84,21 @@ body {
     visibility: visible;
 }
 
+
+/*testando se der tudo certo*/
+.form-controle.success input{
+    border: 3px solid #4ECA64 ;
+
+}
+.form-controle.error input{
+    border: 3px solid #DB5A5A ;
+
+}
+
+
+
+
+
 .form-controle i {
     position: absolute;
     top: 45px;
