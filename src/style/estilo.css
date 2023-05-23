@@ -35,23 +35,23 @@ body {
     font-size: 30px;
 }
 
-.formu {
+.form {
     padding: 0 40px 30px;
 }
 
-.form-controle {
+.form-control {
     margin-bottom: 10px;
     padding-bottom: 20px;
     position: relative;
 }
 
-.form-controle label {
+.form-control label {
     display: inline-block;
     margin-bottom: 5px;
     color: #828CAD;
 }
 
-.form-controle input {
+.form-control input {
     border: 2px solid #3E445B;
     border-radius: 5px;
     outline: 0;
@@ -64,35 +64,35 @@ body {
     padding: 15px;
 }
 
-.form-controle.success input {
+.form-control.success input {
     border: 3px solid #4ECA64;
 }
 
-.form-controle.error input {
+.form-control.error input {
     border: 3px solid #DB5A5A;
 }
 
-.form-controle.error i.img-error {
+.form-control.error i.img-error {
     visibility: visible;
 }
 
-.form-controle.success i.img-success {
+.form-control.success i.img-success {
     visibility: visible;
 }
 
-.form-controle.error small{
+.form-control.error small{
     color: #DB5A5A;
     visibility: visible;
 }
 
-.form-controle i {
+.form-control i {
     position: absolute;
     top: 45px;
     right: 10px;
     visibility: hidden;
 }
 
-.form-controle small {
+.form-control small {
     visibility: hidden;
     position: absolute;
     margin-top: 5px;
@@ -100,7 +100,7 @@ body {
 
 }
 
-.formu button {
+.form button {
     background-color: #6C63FF;
     border-radius: 5px;
     color: #fff;
@@ -114,7 +114,7 @@ body {
     cursor: pointer;
 }
 
-.formu button:hover {
+.form button:hover {
     background-color: #584ff5;
     transition: 0.3s;
 }
